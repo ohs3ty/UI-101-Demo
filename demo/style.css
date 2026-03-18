@@ -1,0 +1,45 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero {
+    background-image:  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/hero-section.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 92px 400px
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.btn-success {
+    background-color: green;
+    padding: 12px 16px;
+    color: white;
+    border-radius: 12px;
+    border: solid green;
+}
+
+.btn-success:hover {
+    background-color: darkolivegreen;
+}
+
+.btn {
+    background-color: transparent;
+    color: white;
+    border-radius: 12px;
+    padding: 12px 16px;
+    border: white solid;
+}
+
+.logo {
+    display: flex;
+    gap: 16px;
+}
+
+.image-class {
+    width: 10rem;
+}

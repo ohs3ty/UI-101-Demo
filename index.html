@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VolunteerHub — Lend a Hand</title>
+    <meta name="description" content="Join local and remote volunteer projects. Sign up to help and make an impact." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary">
+        <a href="#" class="brand" aria-label="VolunteerHub home">
+          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+            <defs>
+              <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="var(--accent)" />
+                <stop offset="100%" stop-color="var(--accent-2)" />
+              </linearGradient>
+            </defs>
+            <circle cx="16" cy="16" r="14" fill="url(#g)" />
+            <path d="M9.5 20.5l6-12 6 12h-3.2l-2.8-6-2.8 6H9.5z" fill="#fff" />
+          </svg>
+          <span class="brand-name">VolunteerHub</span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Toggle navigation</span>
+          ☰
+        </button>
+        <ul id="nav-links" class="nav-links">
+          <li><a href="#features">How it works</a></li>
+          <li><a href="#gallery">Projects</a></li>
+          <li><a href="#volunteer">Volunteer</a></li>
+          <li><a href="#testimonials">Stories</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a class="btn btn-primary" href="#volunteer">Sign Up</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" style="--hero-image: url('images/hannah-busing-Zyx1bK9mqmA-unsplash.jpg');">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Find meaningful ways to help.</h1>
+          <p>
+            Connect with local and remote opportunities, lend your skills, and
+            make a real impact—on your schedule.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#volunteer">Sign Up to Volunteer</a>
+            <a class="btn btn-ghost" href="#gallery">Browse Projects</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 520 380" class="hero-svg">
+            <defs>
+              <linearGradient id="gradA" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="var(--accent)" />
+                <stop offset="100%" stop-color="var(--accent-2)" />
+              </linearGradient>
+            </defs>
+            <rect x="20" y="20" rx="16" width="340" height="220" fill="url(#gradA)" opacity="0.15" />
+            <rect x="60" y="60" rx="14" width="280" height="160" fill="url(#gradA)" opacity="0.25" />
+            <g opacity="0.9">
+              <rect x="380" y="40" width="120" height="16" rx="8" fill="var(--accent)" />
+              <rect x="380" y="70" width="90" height="16" rx="8" fill="var(--accent-2)" />
+              <rect x="380" y="100" width="60" height="16" rx="8" fill="var(--gray-400)" />
+              <rect x="380" y="140" width="120" height="90" rx="10" fill="var(--surface)" stroke="var(--border)" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Logo Cloud -->
+    <section class="logo-cloud">
+      <div class="container">
+        <p class="overline">In partnership with</p>
+        <ul class="logo-grid" aria-label="Customer logos">
+          <li>
+            <svg viewBox="0 0 120 32" role="img" aria-label="City Parks Alliance">
+              <rect width="120" height="32" rx="6" fill="var(--surface-2)" />
+              <text x="60" y="21" text-anchor="middle" fill="var(--text-muted)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14">City Parks</text>
+            </svg>
+          </li>
+          <li>
+            <svg viewBox="0 0 120 32" role="img" aria-label="Community Food Bank">
+              <rect width="120" height="32" rx="6" fill="var(--surface-2)" />
+              <text x="60" y="21" text-anchor="middle" fill="var(--text-muted)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14">Food Bank</text>
+            </svg>
+          </li>
+          <li>
+            <svg viewBox="0 0 120 32" role="img" aria-label="Youth Tutors">
+              <rect width="120" height="32" rx="6" fill="var(--surface-2)" />
+              <text x="60" y="21" text-anchor="middle" fill="var(--text-muted)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14">Youth Tutors</text>
+            </svg>
+          </li>
+          <li>
+            <svg viewBox="0 0 120 32" role="img" aria-label="Animal Shelter">
+              <rect width="120" height="32" rx="6" fill="var(--surface-2)" />
+              <text x="60" y="21" text-anchor="middle" fill="var(--text-muted)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14">Shelter</text>
+            </svg>
+          </li>
+          <li>
+            <svg viewBox="0 0 120 32" role="img" aria-label="Disaster Relief">
+              <rect width="120" height="32" rx="6" fill="var(--surface-2)" />
+              <text x="60" y="21" text-anchor="middle" fill="var(--text-muted)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14">Relief</text>
+            </svg>
+          </li>
+          <li>
+            <svg viewBox="0 0 120 32" role="img" aria-label="Community Garden">
+              <rect width="120" height="32" rx="6" fill="var(--surface-2)" />
+              <text x="60" y="21" text-anchor="middle" fill="var(--text-muted)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14">Garden</text>
+            </svg>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features section">
+      <div class="container">
+        <header class="section-header">
+          <p class="overline">How it works</p>
+          <h2>Volunteer on your terms</h2>
+          <p class="muted">Simple steps to find opportunities that fit your skills and time.</p>
+        </header>
+        <div class="feature-grid">
+          <article class="feature">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l7 4v6c0 5-3.5 9.5-7 10-3.5-.5-7-5-7-10V6l7-4zM7 9h10V7L12 4 7 7v2z"/></svg>
+            </div>
+            <h3>Create a profile</h3>
+            <p>Tell us your interests, skills, and availability to get matched.</p>
+          </article>
+          <article class="feature">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 5h18v2H3V5zm2 4h14v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V9zm4 2v8h6v-8H9z"/></svg>
+            </div>
+            <h3>Choose a project</h3>
+            <p>Browse opportunities across education, environment, food security, and more.</p>
+          </article>
+          <article class="feature">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 100 18 9 9 0 000-18zm1 10h4l-5 5-5-5h4V6h2v7z"/></svg>
+            </div>
+            <h3>Flexible commitment</h3>
+            <p>One-time events or ongoing roles—you decide what works for you.</p>
+          </article>
+          <article class="feature">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 6h16v2H4V6zm0 5h10v2H4v-2zm0 5h16v2H4v-2z"/></svg>
+            </div>
+            <h3>Safe & supported</h3>
+            <p>Work with vetted partners and clear guidelines for every activity.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Volunteer Signup -->
+    <section id="volunteer" class="section alt volunteer">
+      <div class="container">
+        <header class="section-header">
+          <p class="overline">Get involved</p>
+          <h2>Sign up to volunteer</h2>
+          <p class="muted">Share a few details and we’ll match you with opportunities.</p>
+        </header>
+        <form class="form" action="/signup" method="post">
+          <div class="form-grid">
+            <div class="input-group">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required autocomplete="name" />
+            </div>
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required autocomplete="email" />
+            </div>
+            <div class="input-group">
+              <label for="location">Location</label>
+              <input type="text" id="location" name="location" placeholder="City, State" autocomplete="address-level2" />
+            </div>
+            <div class="input-group">
+              <label for="availability">Availability</label>
+              <select id="availability" name="availability">
+                <option value="weekdays">Weekdays</option>
+                <option value="weeknights">Weeknights</option>
+                <option value="weekends">Weekends</option>
+                <option value="flexible">Flexible</option>
+              </select>
+            </div>
+          </div>
+
+          <fieldset class="input-group">
+            <legend>Interests</legend>
+            <div class="checkbox-grid">
+              <label class="checkbox"><input type="checkbox" name="interests" value="environment" /> Environment</label>
+              <label class="checkbox"><input type="checkbox" name="interests" value="education" /> Education</label>
+              <label class="checkbox"><input type="checkbox" name="interests" value="food" /> Food security</label>
+              <label class="checkbox"><input type="checkbox" name="interests" value="shelter" /> Animal welfare</label>
+              <label class="checkbox"><input type="checkbox" name="interests" value="disaster" /> Disaster relief</label>
+              <label class="checkbox"><input type="checkbox" name="interests" value="community" /> Community events</label>
+            </div>
+          </fieldset>
+
+          <div class="input-group">
+            <label for="message">Tell us about your skills</label>
+            <textarea id="message" name="message" rows="4" placeholder="e.g., languages, certifications, experience"></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Submit</button>
+            <p class="muted small">By submitting, you agree to be contacted about opportunities.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials section alt">
+      <div class="container">
+        <header class="section-header">
+          <p class="overline">Volunteer stories</p>
+          <h2>What people are saying</h2>
+        </header>
+        <div class="testimonial-grid">
+          <figure class="testimonial">
+            <blockquote>
+              “I met incredible people and saw immediate impact at our park cleanup.”
+            </blockquote>
+            <figcaption>
+              <img class="avatar" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=128&h=128&q=60&crop=faces" alt="Portrait of Jordan Lee" loading="lazy" decoding="async" />
+              <div>
+                <div class="name">Jordan Lee</div>
+                <div class="role">Volunteer, Community Parks</div>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="testimonial">
+            <blockquote>
+              “Flexible opportunities made it easy to tutor after work hours.”
+            </blockquote>
+            <figcaption>
+              <img class="avatar" src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=128&h=128&q=60&crop=faces" alt="Portrait of Alex Morgan" loading="lazy" decoding="async" />
+              <div>
+                <div class="name">Alex Morgan</div>
+                <div class="role">Volunteer, Youth Tutors</div>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="testimonial">
+            <blockquote>
+              “The onboarding was clear and safe. I felt supported the whole time.”
+            </blockquote>
+            <figcaption>
+              <img class="avatar" src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=128&h=128&q=60&crop=faces" alt="Portrait of Taylor Kim" loading="lazy" decoding="async" />
+              <div>
+                <div class="name">Taylor Kim</div>
+                <div class="role">Organizer, Community Food Bank</div>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Card Gallery -->
+    <section id="gallery" class="gallery section">
+      <div class="container">
+        <header class="section-header">
+          <p class="overline">Opportunities</p>
+          <h2>Featured volunteer projects</h2>
+          <p class="muted">Explore a few examples to get started.</p>
+        </header>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-media gradient-1" aria-hidden="true">
+              <img src="images/food-bank.svg" alt="Volunteers sorting food donations" loading="lazy" decoding="async" />
+            </div>
+            <div class="card-body">
+              <h3>Food Bank Sorting</h3>
+              <p>Help organize donations and prepare pantry boxes.</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media gradient-2" aria-hidden="true">
+              <img src="images/park-cleanup.svg" alt="Park cleanup volunteers" loading="lazy" decoding="async" />
+            </div>
+            <div class="card-body">
+              <h3>Park Cleanup</h3>
+              <p>Join a weekend crew to beautify green spaces.</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media gradient-3" aria-hidden="true">
+              <img src="images/tutoring.svg" alt="After-school tutoring session" loading="lazy" decoding="async" />
+            </div>
+            <div class="card-body">
+              <h3>After‑School Tutoring</h3>
+              <p>Support students with homework and skill-building.</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media gradient-4" aria-hidden="true">
+              <img src="images/animal-shelter.svg" alt="Animal shelter volunteers" loading="lazy" decoding="async" />
+            </div>
+            <div class="card-body">
+              <h3>Animal Shelter Support</h3>
+              <p>Care for animals and assist with adoptions.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a href="#" class="brand">
+            <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+              <circle cx="16" cy="16" r="14" fill="currentColor" />
+            </svg>
+            <span class="brand-name">VolunteerHub</span>
+          </a>
+          <p class="muted">Connect with causes. Make a difference.</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="#features">How it works</a></li>
+          <li><a href="#gallery">Projects</a></li>
+          <li><a href="#volunteer">Volunteer</a></li>
+          <li><a href="#testimonials">Stories</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+        <p class="copyright">© <span id="year">2026</span> VolunteerHub</p>
+      </div>
+    </footer>
+
+    <!-- No JS: simple enhancement to keep nav usable on small screens via CSS only -->
+  </body>
+  </html>

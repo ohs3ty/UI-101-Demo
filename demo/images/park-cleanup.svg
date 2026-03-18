@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Park cleanup volunteers">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dcfce7"/>
+      <stop offset="1" stop-color="#bae6fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg2)"/>
+  <g transform="translate(120,120)">
+    <rect x="0" y="260" width="560" height="80" fill="#86efac"/>
+    <g fill="#166534">
+      <path d="M100 260c0-80 60-120 60-120s60 40 60 120z"/>
+      <rect x="152" y="260" width="16" height="80" fill="#065f46"/>
+      <path d="M300 260c0-70 50-110 50-110s50 40 50 110z"/>
+      <rect x="346" y="260" width="16" height="80" fill="#065f46"/>
+    </g>
+    <g transform="translate(420,190)">
+      <rect x="0" y="40" width="110" height="24" rx="12" fill="#f59e0b"/>
+      <rect x="20" y="0" width="70" height="50" rx="8" fill="#fbbf24"/>
+    </g>
+    <g transform="translate(40,280)" fill="#0f172a">
+      <circle cx="24" cy="-12" r="12" fill="#0ea5e9"/>
+      <rect x="18" y="-4" width="12" height="36" rx="6" fill="#0ea5e9"/>
+      <rect x="-4" y="10" width="56" height="10" rx="5" fill="#334155"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Food bank donations">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#dcfce7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg1)"/>
+  <g transform="translate(120,180)" fill="#0f172a">
+    <rect x="0" y="140" width="560" height="160" rx="18" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="40" y="60" width="120" height="120" rx="16" fill="#fef3c7"/>
+    <rect x="200" y="40" width="140" height="140" rx="16" fill="#e2e8f0"/>
+    <rect x="380" y="70" width="140" height="110" rx="16" fill="#fde68a"/>
+    <g transform="translate(70,95)">
+      <path d="M40 0c22 0 40 18 40 40s-18 40-40 40S0 62 0 40 18 0 40 0z" fill="#ef4444"/>
+      <path d="M40 18c7 0 12 5 12 12s-10 18-12 18-12-11-12-18 5-12 12-12z" fill="#fff"/>
+    </g>
+    <g transform="translate(230,70)">
+      <rect x="0" y="0" width="80" height="80" rx="12" fill="#22c55e"/>
+      <path d="M20 42l14 14 26-26" stroke="#fff" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(420,90)">
+      <rect x="0" y="0" width="80" height="60" rx="8" fill="#60a5fa"/>
+      <rect x="14" y="16" width="52" height="8" rx="4" fill="#fff"/>
+      <rect x="14" y="34" width="40" height="8" rx="4" fill="#fff"/>
+    </g>
+  </g>
+</svg>
