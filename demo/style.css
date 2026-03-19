@@ -87,3 +87,73 @@ h1, h2, h3, h4, h5, h6 {
 .image-class {
     width: 10rem;
 }
+
+/* feature section */
+.feature {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.article {
+    display: flex;
+    border: solid 1px gray;
+    border-radius: 16px;
+    padding: 16px;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.card-features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.article-image {
+    width: 220px;
+    aspect-ratio: 1 / 1;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-right: 16px;
+    display: block;
+    flex: 0 0 220px;
+    align-self: flex-start;
+}
+
+.article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.pre-title {
+    color: slategray;
+}
+
+.subtitle {
+    color: slategray;
+}
+
+.feature-header {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 32px;
+}
+
+.feature-header h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.feature-header .subtitle {
+    margin: 0;
+    font-size: 16px;
+}
+
+.feature-header .pre-title {
+    margin: 0;
+    font-size: 13px;
+}
