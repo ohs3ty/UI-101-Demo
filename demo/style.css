@@ -157,3 +157,38 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-size: 13px;
 }
+
+/* CTA Section */
+.cta {
+  background-image: 
+    radial-gradient(circle, rgba(255, 255, 255, 0.6), rgba(221, 221, 221, 0.9)),
+    url("images/clouds.jpg");    
+    background-size: cover;
+    background-position: center;
+    margin: 32px 0px;
+}
+.cta-content {
+    text-align: center;
+    padding: 32px 0px;
+}
+
+.cta-content h1 {
+    font-size: 56px;
+}
+
+.cta-content .subtitle {
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.cta-stuff {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cta-stuff .btn-outline {
+    border: solid 1px black;
+    color: black;
+}
