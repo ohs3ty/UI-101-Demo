@@ -249,3 +249,43 @@ h1 {
 .star {
     color: rgb(242, 173, 0);
 }
+
+/* Footer */
+.footer {
+    background-color: rgb(0, 0, 39);
+    color: white;
+
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content {
+    display: flex;
+    padding-top: 32px;
+}
+
+.footer-logo {
+    width: 20%;
+    padding: 0 100px;
+}
+
+.footer-section {
+    padding: 0px 100px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer li {
+    padding: 8px 0;
+}
+
+.copyright {
+    text-align: center;
+    padding: 48px;
+}
