@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  background: #f7f8f2;
+}
+
+/* Flexbox places the logos next to each other. */
+.logo-cloud {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 48px 24px;
+}
+
+/* Start in grayscale and smoothly animate changes. */
+.logo-cloud img {
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: filter 0.2s, transform 0.2s;
+}
+
+/* Hover reveals the original color and makes the logo slightly larger. */
+.logo-cloud img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.15);
+}
+
+/* Respect visitors who prefer less motion. */
+@media (prefers-reduced-motion: reduce) {
+  .logo-cloud img {
+    transition: none;
+  }
+}
